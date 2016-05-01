@@ -1,0 +1,5 @@
+footer{
+  @include container(100%);
+  height: $base-line-height * 2;
+  background-color: #ccc529;
+}

@@ -1,0 +1,5 @@
+/* $function: color
+------------------------------------------------------------ */
+@function color($hue, $shade: null, $amount: 50%) {
+  @return map-get($colors, $hue);
+}

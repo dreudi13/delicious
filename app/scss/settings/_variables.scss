@@ -1,0 +1,23 @@
+/* $variables colors
+------------------------------------------------------------ */
+$main-color: rgb(74, 120, 43);
+$secondary-color: rgb(207, 87, 87);
+$text-color: rgb(21, 24, 27);
+
+$colors:(
+  main: $main-color,
+  secondary: $secondary-color,
+  text: $text-color
+);
+
+/* $responsive
+------------------------------------------------------------ */
+$tablet: 768px;
+$tablet-landscape: 960px;
+$desktop: 1024px;
+$large: 1440px;
+
+/* $font
+------------------------------------------------------------ */
+$base-font-size: 16px;
+$base-line-height: $base-font-size * 1.5;

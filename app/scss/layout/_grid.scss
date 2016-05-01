@@ -1,0 +1,16 @@
+/* $grid system
+------------------------------------------------------------ */
+$susy:(
+  container: 4,
+  gutters: 30px/100px,
+  column-width: 100px,
+  gutter-position: inside-static,
+  debug: (
+    image: show,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  )
+);
+
+$content-layout: (3 1);

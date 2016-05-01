@@ -1,0 +1,13 @@
+body{
+  color: color(text);
+}
+
+p{
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
