@@ -1,0 +1,4 @@
+main{
+  @include span(1 at 1 of $content-layout);
+  background-color: #a42e2e;
+}
