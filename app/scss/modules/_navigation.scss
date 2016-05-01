@@ -1,0 +1,32 @@
+.menu{
+  @include container(1200px);
+}
+
+.menu-item{
+
+  @include breakpoint(min, $desktop) {
+    display: inline-block;
+    line-height: $base-line-height * 2;
+  }
+
+  a{
+    @include breakpoint(min, $desktop) {
+      border-right: 1px solid #fff;
+      padding-left: $base-line-height;
+      padding-right: $base-line-height;
+    }
+  }
+
+  &:first-child a{
+    @include breakpoint(min, $desktop) {
+      padding-left: gutter();
+    }
+  }
+
+  &:last-child a{
+
+    @include breakpoint(min, $desktop) {
+      border-right: none;
+    }
+  }
+}

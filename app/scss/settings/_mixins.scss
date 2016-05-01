@@ -1,0 +1,7 @@
+/* $mediaqueries
+------------------------------------------------------------ */
+@mixin breakpoint($limit, $break){
+  @media screen and (#{$limit}-width: #{$break}){
+    @content;
+  }
+}

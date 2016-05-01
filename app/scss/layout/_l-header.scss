@@ -1,5 +1,4 @@
 header{
-  @include container(100%);
-  height: $base-line-height * 4;
+  width: 100%;
   background-color: rgb(95, 153, 60);
 }
