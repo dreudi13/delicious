@@ -1,0 +1,5 @@
+.sidebar{
+  @include span(1 at 2 of $content-layout);
+  height: 100%;
+  background-color: #443be0;
+}
